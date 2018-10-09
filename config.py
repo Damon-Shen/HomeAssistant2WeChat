@@ -26,27 +26,13 @@ switch_control_dic = {
 #定义温度传感器dic
 temperature_sensor_dic = {
     "客厅温度":"sensor.temperature",
-    "卧室温度":"sensor.temperature_158d0002374f06"
-}
-
-#定义湿度传感器dic
-humidity_sensor_dic = {
+    "卧室温度":"sensor.temperature_158d0002374f06",
     "客厅湿度":"sensor.humidity",
-    "卧室湿度":"sensor.humidity_158d0002374f06"
-}
-
-#定义气压传感器dic
-pressure_sensor_dic = {
-    "客厅气压":"",
+    "卧室湿度":"sensor.humidity_158d0002374f06",
+    "客厅亮度":"sensor.lux",
+    "卧室亮度":"sensor.illumination_mi",
     "卧室气压":"sensor.pressure_158d0002374f06"
 }
-
-#定义光感传感器dic
-light_sensor_dic = {
-    "客厅亮度":"sensor.lux",
-    "卧室亮度":"sensor.illumination_mi"
-}
-
 
 
 

@@ -18,10 +18,10 @@ def response(message):
     match_close = re.findall(config.close_word_list, message.content, re.M|re.I)
    
     if len(match_states)==1:
-        for k,v in config.temperature_sensor_dic.items():
+        for k,v in config.sensor_dic.items():
             sensor = list(filter(None, match_states[0]))
             if (k == sensor[0]):
-                t3 = t1.SensorState(config.temperature_sensor_dic[k])
+                t3 = t1.SensorState(config.sensor_dic[k])
                 if (t3 != -1):
                     return '当前' + k + "为" + t3
                 else:
@@ -75,10 +75,6 @@ def response(message):
         return '无此关键词'
    
         
-        
-       
-
-
 # 让服务器监听在 0.0.0.0:80
 robot.config['HOST'] = '0.0.0.0'
 robot.config['PORT'] = 8888
