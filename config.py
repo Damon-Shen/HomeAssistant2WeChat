@@ -24,7 +24,7 @@ switch_control_dic = {
 }
 
 #定义传感器dic
-temperature_sensor_dic = {
+sensor_dic = {
     "客厅温度":"sensor.temperature",
     "卧室温度":"sensor.temperature_158d0002374f06",
     "客厅湿度":"sensor.humidity",
