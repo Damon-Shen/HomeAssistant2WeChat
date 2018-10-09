@@ -23,7 +23,7 @@ switch_control_dic = {
     "风扇":"switch.fan"
 }
 
-#定义温度传感器dic
+#定义传感器dic
 temperature_sensor_dic = {
     "客厅温度":"sensor.temperature",
     "卧室温度":"sensor.temperature_158d0002374f06",
