@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf8 -*-
 
-ha_api_passwd = 'sky5201314'                     #homeassistant api密码
-ha_url = 'https://home.8023.online:9123'         #homeassistant 地址
-wx_token = 'MyToken'
+ha_api_passwd = 'yourpasswd'                     #homeassistant api密码
+ha_url = 'http(s)://address:port'                #homeassistant 地址
+wx_token = 'yourwechattoken'
 
 open_word_list = r'打开(\w+)*|启动(\w+)*'
 close_word_list = r'关闭(\w+)*|停止(\w+)*'
