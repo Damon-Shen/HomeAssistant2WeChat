@@ -1,0 +1,5 @@
+# HomeAssistant2WeChat
+HomeAssistant使用微信公众号控制
+
+公众号使用了WxRoBot框架实现过程
+后端采用HomeAssistant Legacy API Password方式登陆，后期修改成Auth2方式
