@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf8 -*-
 
-ha_api_passwd = 'yourpasswd'                     #homeassistant api密码
-ha_url = 'http(s)://address:port'                #homeassistant 地址
-wx_token = 'yourwechattoken'
+
+ha_url = 'http(s)://address:port'        #homeassistant 地址
+wx_token = 'MyToken'                     #微信Token
 
 open_word_list = r'打开(\w+)*|启动(\w+)*'
 close_word_list = r'关闭(\w+)*|停止(\w+)*'
