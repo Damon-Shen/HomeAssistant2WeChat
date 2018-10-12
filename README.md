@@ -2,7 +2,10 @@
 HomeAssistant使用微信公众号控制
 
 
-HomeAssistant使用Legacy API Password方式登陆，暂未支持Auth2认证方式
+Update 2018-10-12
+1、支持HomeAssistant Auth2认证方式，直接访问地址即可打开
+2、修正几个状态回馈错误的问题
+
 Python版本 3.6.6调试通过，个人精力有限，不做其他版本兼容
 目前版本较为简陋，设备类型仅支持Light，Switch，Sensor，仅支持文字信息控制，关键词命令如下(关键词可在配置文件中修改，支持多个关键词匹配，需保留格式)<br>
 ```
